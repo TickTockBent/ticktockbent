@@ -42,7 +42,7 @@ _All projects are under active development._
 
 ## 📅 GitHub Contribution Activity
 
-![GitHub Contribution Graph](https://github-contributions.vercel.app/ticktockbent.svg?theme=dracula)
+![GitHub Contribution Graph](https://github-contributions.vercel.app/ticktockbent.svg)
 
 ---
 
