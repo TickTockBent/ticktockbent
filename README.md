@@ -40,6 +40,10 @@ _All projects are under active development._
 ![TickTockBent's GitHub stats](https://github-readme-stats.vercel.app/api?username=ticktockbent&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ticktockbent&layout=compact&theme=dark&hide_border=true)
 
+## 📅 GitHub Contribution Activity
+
+![GitHub Contribution Graph](https://github-contributions.vercel.app/ticktockbent.svg?theme=dracula)
+
 ---
 
 ## 🌱 Currently Interested In
