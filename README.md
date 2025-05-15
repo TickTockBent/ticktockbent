@@ -42,7 +42,9 @@ _All projects are under active development._
 
 ## 📅 GitHub Contribution Graph
 
-> ![ticktockbent's GitHub Chart](https://ghchart.rshah.org/228855/ticktockbent)
+<p align="center">
+  <img src="https://ghchart.rshah.org/228855/ticktockbent" alt="ticktockbent's GitHub chart"/>
+</p>
 
 ---
 
