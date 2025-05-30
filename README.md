@@ -16,7 +16,7 @@ I'm a Web3 infrastructure engineer and DeFi protocol architect with 18+ years in
 - **TimeTickBase** – A Sybil-resistant, time-minted staking protocol with hourly reward cycles and zero-inflation design  
 - **ThermAI** – Distributed compute + heat recapture with smart contract-based token sales, staking, and referrals  
 - **ReFlux** – GitHub-native CI/CD tool for automated Flux deployments with wallet-signed triggers  
-- **Lethe** – Ephemeral state layer with TTL-based data aging and client-side encrypted storage
+- **REPRAM** – Ephemeral state layer with TTL-based data aging and client-side encrypted storage
 
 _All projects are under active development._
 
