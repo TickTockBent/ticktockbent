@@ -29,12 +29,6 @@ I'm a Web3 infrastructure engineer and DeFi protocol architect with 18+ years in
 ![TickTockBent's GitHub stats](https://github-readme-stats.vercel.app/api?username=ticktockbent&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ticktockbent&layout=compact&theme=dark&hide_border=true)
 
-## 📅 GitHub Contribution Graph
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/228855/ticktockbent" alt="ticktockbent's GitHub chart"/>
-</p>
-
 ---
 
 ## 🤝 Let's Build
