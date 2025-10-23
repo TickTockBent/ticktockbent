@@ -11,17 +11,6 @@ I'm a Web3 infrastructure engineer and DeFi protocol architect with 18+ years in
 
 ---
 
-## 🚧 Current Projects
-
-- **TimeTickBase** – A Sybil-resistant, time-minted staking protocol with hourly reward cycles and zero-inflation design  
-- **ThermAI** – Distributed compute + heat recapture with smart contract-based token sales, staking, and referrals  
-- **ReFlux** – GitHub-native CI/CD tool for automated Flux deployments with wallet-signed triggers  
-- **REPRAM** – Ephemeral state layer with TTL-based data aging and client-side encrypted storage
-
-_All projects are under active development._
-
----
-
 ## 🧰 Tech Stack
 
 ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?logo=ethereum&logoColor=white)
@@ -48,15 +37,6 @@ _All projects are under active development._
 
 ---
 
-## 🌱 Currently Interested In
-
-- Zero-inflation token design
-- Developer onboarding flows for L2s
-- Distributed ephemeral storage layers
-- Smart contract automation and observability
-
----
-
 ## 🤝 Let's Build
 
-Open to collaboration, contributions, and high-effort projects that push Web3 infrastructure forward.
+Open to collaboration, contributions, and high-effort projects
