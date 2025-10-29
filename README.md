@@ -7,7 +7,7 @@
 
 ---
 
-I'm a Web3 infrastructure engineer and DeFi protocol architect with 18+ years in systems engineering, DevOps, and blockchain development. I focus on building developer tooling, smart contract ecosystems, and decentralized infrastructure — primarily on **Polygon** and **Flux**.
+I'm an infrastructure engineer and systems architect with 18+ years in systems engineering, DevOps, and blockchain development.
 
 ---
 
