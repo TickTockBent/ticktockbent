@@ -24,13 +24,6 @@ I'm an infrastructure engineer and systems architect with 18+ years in systems e
 
 ---
 
-## 📈 GitHub Stats
-
-![TickTockBent's GitHub stats](https://github-readme-stats.vercel.app/api?username=ticktockbent&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ticktockbent&layout=compact&theme=dark&hide_border=true)
-
----
-
 ## 🤝 Let's Build
 
 Open to collaboration, contributions, and high-effort projects
