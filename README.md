@@ -1,8 +1,7 @@
-# 👋 Hey, I'm TickTockBent
+# 👋 Hey, I'm Wes
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ticktockbent&color=blue&style=flat)
 [![Twitter/X](https://img.shields.io/badge/X-@TickTockBent-1DA1F2?logo=twitter&style=flat)](https://x.com/TickTockBent)
-[![GitHub](https://img.shields.io/badge/GitHub-@ticktockbent-181717?logo=github&style=flat)](https://github.com/ticktockbent)
 ![Discord](https://img.shields.io/badge/Discord-TickTockBent-5865F2?logo=discord&style=flat)
 
 ---
