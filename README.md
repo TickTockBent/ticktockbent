@@ -82,9 +82,8 @@ Plus the supporting cast:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TickTockBent&theme=tokyonight" alt="Profile Details" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TickTockBent&theme=tokyonight" alt="Stats" height="165" />
+<img src="https://github-readme-stats-tau-sage-40.vercel.app/api?username=TickTockBent&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+<img src="https://github-readme-stats-tau-sage-40.vercel.app/api/top-langs/?username=TickTockBent&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
 <img src="https://streak-stats.demolab.com/?user=TickTockBent&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
 
 </div>
