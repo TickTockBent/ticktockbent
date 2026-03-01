@@ -106,6 +106,18 @@ Plus the supporting cast:
 
 ---
 
+## 🕹️ Flynn's Arcade
+
+<div align="center">
+
+<a href="https://github.com/TickTockBent/flynn"><img src="https://flynn-livid.vercel.app/api/game" alt="Random arcade game — refresh for another" /></a>
+
+*A random game plays every time you visit. [How it works →](https://github.com/TickTockBent/flynn)*
+
+</div>
+
+---
+
 ## 🎲 When I'm Not Coding
 
 - 🖨️ 3D printing things that probably didn't need to be 3D printed
