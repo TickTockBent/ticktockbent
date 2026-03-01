@@ -2,6 +2,8 @@
 
 # Hey, I'm Wes
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=building+MCP+servers;naming+things+after+book+characters;committing+at+2am;mass-producing+side+projects&font=Fira+Code&size=22&duration=3000&pause=1000&color=70A5FD&background=1A1B2700&center=true&vCenter=true&width=500&height=55)](https://git.io/typing-svg)
+
 **Infrastructure engineer · Systems architect · Compulsive builder of things**
 
 18+ years building systems that run, scale, and occasionally explode in interesting ways.<br>
@@ -90,7 +92,32 @@ Plus the supporting cast:
 
 ---
 
+## 🐍 Contribution Graph
+
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake.svg" />
+  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## 🎲 When I'm Not Coding
+
+- 🖨️ 3D printing things that probably didn't need to be 3D printed
+- 🎮 Designing games I'll finish one day (the prototypes have prototypes)
+- 📚 Discworld completionist — GNU Terry Pratchett
+- 🧪 Convincing distributed systems to agree on things (they never do)
+
+---
+
+<div align="center">
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
 
 Open to collaboration, contributions, and projects with unreasonable scope.
 
