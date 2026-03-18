@@ -29,7 +29,7 @@ MCP servers that give AI agents hands. Each named after a literary character, be
 | [**charlotte**](https://github.com/TickTockBent/charlotte) ⭐102 | Web Browsing | *some terrific, radiant, humble web pages* | Charlotte (*Charlotte's Web*) |
 | [**puck**](https://github.com/TickTockBent/puck) | X / Twitter | *Lord, what fools these mortals be!* | Puck (*A Midsummer Night's Dream*) |
 | [**virgil**](https://github.com/TickTockBent/virgil) | Reddit | *abandon all lurking, ye who enter here* | Virgil (*The Divine Comedy*) |
-| [**ariel**](https://github.com/TickTockBent/arial) | Bluesky | *that's the spirit!* | Ariel (*The Tempest*) |
+| [**ariel**](https://github.com/TickTockBent/ariel) | Bluesky | *that's the spirit!* | Ariel (*The Tempest*) |
 | [**linus**](https://github.com/TickTockBent/linus) | Dev.to | *it's not a blanket, it's a blog post* | Linus (*Peanuts*) |
 | [**moist**](https://github.com/TickTockBent/Moist) | Gmail | *neither rain nor snow nor stranded tokens* | Moist von Lipwig (*Going Postal*) |
 
