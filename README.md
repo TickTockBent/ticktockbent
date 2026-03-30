@@ -39,7 +39,7 @@ Plus the supporting cast:
 |---|---|
 | [**johnny**](https://github.com/TickTockBent/johnny) | Semantic memory for RAG — *get your 80 gigs of wet-wired recall* |
 | [**REPRAM**](https://github.com/TickTockBent/REPRAM) | Ephemeral dead-drop network for agent coordination — *this message will self-destruct* |
-| [**AXIOM**](https://github.com/TickTockBent/axiom-web) | Open standard for AI-navigable websites — *teaching the web to speak agent* |
+| [**AGENTIC WEB**](https://github.com/TickTockBent/agentic-web) | Open standard for AI-navigable websites — *teaching the web to speak agent* |
 
 ---
 
