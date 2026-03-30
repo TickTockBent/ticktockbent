@@ -26,7 +26,7 @@ MCP servers that give AI agents hands. Each named after a literary character, be
 
 | Server | Platform | Tagline | Named After |
 |---|---|---|---|
-| [**charlotte**](https://github.com/TickTockBent/charlotte) ⭐102 | Web Browsing | *some terrific, radiant, humble web pages* | Charlotte (*Charlotte's Web*) |
+| [**charlotte**](https://github.com/TickTockBent/charlotte) ⭐110 | Web Browsing | *some terrific, radiant, humble web pages* | Charlotte (*Charlotte's Web*) |
 | [**puck**](https://github.com/TickTockBent/puck) | X / Twitter | *Lord, what fools these mortals be!* | Puck (*A Midsummer Night's Dream*) |
 | [**virgil**](https://github.com/TickTockBent/virgil) | Reddit | *abandon all lurking, ye who enter here* | Virgil (*The Divine Comedy*) |
 | [**ariel**](https://github.com/TickTockBent/ariel) | Bluesky | *that's the spirit!* | Ariel (*The Tempest*) |
