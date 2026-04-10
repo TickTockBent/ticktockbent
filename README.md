@@ -20,26 +20,20 @@ I name my projects after literary characters and give them attitudes. It's a who
 
 ---
 
-## 🎭 The MCP Suite
+## 📝 Latest from the Blog
 
-MCP servers that give AI agents hands. Each named after a literary character, because software that talks to the internet on your behalf should at least have good taste.
+I write about AI agents, infrastructure, security, and open-source tools at [dev.to/ticktockbent](https://dev.to/ticktockbent).
 
-| Server | Platform | Tagline | Named After |
-|---|---|---|---|
-| [**charlotte**](https://github.com/TickTockBent/charlotte) ⭐110 | Web Browsing | *some terrific, radiant, humble web pages* | Charlotte (*Charlotte's Web*) |
-| [**puck**](https://github.com/TickTockBent/puck) | X / Twitter | *Lord, what fools these mortals be!* | Puck (*A Midsummer Night's Dream*) |
-| [**virgil**](https://github.com/TickTockBent/virgil) | Reddit | *abandon all lurking, ye who enter here* | Virgil (*The Divine Comedy*) |
-| [**ariel**](https://github.com/TickTockBent/ariel) | Bluesky | *that's the spirit!* | Ariel (*The Tempest*) |
-| [**linus**](https://github.com/TickTockBent/linus) | Dev.to | *it's not a blanket, it's a blog post* | Linus (*Peanuts*) |
-| [**moist**](https://github.com/TickTockBent/Moist) | Gmail | *neither rain nor snow nor stranded tokens* | Moist von Lipwig (*Going Postal*) |
-
-Plus the supporting cast:
-
-| Project | Role |
+<!-- BLOG-POSTS:START -->
+<!-- This section is auto-updated nightly by a GitHub Action -->
+| Post | Description |
 |---|---|
-| [**johnny**](https://github.com/TickTockBent/johnny) | Semantic memory for RAG — *get your 80 gigs of wet-wired recall* |
-| [**REPRAM**](https://github.com/TickTockBent/REPRAM) | Ephemeral dead-drop network for agent coordination — *this message will self-destruct* |
-| [**AGENTIC WEB**](https://github.com/TickTockBent/agentic-web) | Open standard for AI-navigable websites — *teaching the web to speak agent* |
+| [A Rust TUI for Your UniFi Network That Actually Takes Code Review Seriously](https://www.wshoffner.dev/blog/unifly) | If you run UniFi gear, you manage it through a web UI. That's fine until you need to script... |
+| [Anatomy of a GitHub Actions Supply Chain Attack Targeting MCP Repos](https://www.wshoffner.dev/blog/anatomy-of-a-github-actions-supply-chain-attack-targeting-mcp-repos) | On April 7th, someone submitted a pull request to my project Charlotte. 28 lines. One new file. A... |
+| [Your Artifact Registry Doesn't Need 2 GB of RAM](https://www.wshoffner.dev/blog/parm) | Every team eventually needs an artifact registry. You need somewhere to push Docker images, host... |
+| [I Renamed All 43 Tools in My MCP Server. Here's Why I Did It Now.](https://www.wshoffner.dev/blog/i-renamed-all-43-tools-in-my-mcp-server-heres-why-i-did-it-now) | Charlotte 0.6.0 ships a breaking change, batch form fills, and lazy browser launch. Plus the story of 7 strangers... |
+| [Your System Is Not a State Machine](https://www.wshoffner.dev/blog/your-system-is-not-a-state-machine) | State machines can't describe agentic AI systems. The state space is too vast, the behavior isn't stochastic, and... |
+<!-- BLOG-POSTS:END -->
 
 ---
 
