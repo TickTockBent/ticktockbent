@@ -1,0 +1,21 @@
+name: interactive fiction
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  validate:
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: validate turn
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/validate_story_turn.py

@@ -86,17 +86,23 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 ---
 
-## 🐍 Contribution Graph
+## 📊 Contribution Graph
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake.svg" />
-  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/TickTockBent/ticktockbent/output/github-contribution-grid-snake.svg" />
-</picture>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TickTockBent&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 
 </div>
+
+---
+
+## 📖 Interactive Fiction
+
+A collaborative story, one turn at a time. Anyone can continue — just comment on the story issue.
+
+**The rules:** No back-to-back turns. 500 character limit. That's it.
+
+[📜 Join the story →](https://github.com/TickTockBent/ticktockbent/issues?q=is%3Aissue+is%3Aopen+label%3Ainteractive-fiction)
 
 ---
 
