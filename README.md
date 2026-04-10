@@ -86,11 +86,13 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 ---
 
-## 📊 Contribution Graph
+## ⏱ Commit Clock
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TickTockBent&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
+<img src="assets/commit-clock.svg" alt="Commit Clock — when I tend to commit" />
+
+*Inner ring = Monday, outer = Sunday. Midnight at top. Updated weekly.*
 
 </div>
 
