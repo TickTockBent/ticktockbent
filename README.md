@@ -11,7 +11,6 @@ Currently at **[Clocktower and Associates](https://www.clocktowerassoc.com)** â€
 
 I name my projects after literary characters and give them attitudes. It's a whole thing.
 
-[![X](https://img.shields.io/badge/X-@TickTockBent-000?logo=x&style=flat)](https://x.com/TickTockBent)
 [![Discord](https://img.shields.io/badge/Discord-TickTockBent-5865F2?logo=discord&logoColor=white&style=flat)](https://discord.com)
 [![Website](https://img.shields.io/badge/clocktowerassoc.com-222?logo=safari&logoColor=white&style=flat)](https://www.clocktowerassoc.com)
 ![Profile Views](https://komarev.com/ghpvc/?username=ticktockbent&color=blue&style=flat)
