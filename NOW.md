@@ -1,6 +1,6 @@
 ---
-updatedAt: 2026-04-21T17:17:38Z
-summary: "Charlotte is polishing iframe interaction support and release processes while Flynn enhances game AI and visual effects across Pong and Snake."
+updatedAt: 2026-04-21T17:27:31Z
+summary: "Shipping charlotte 0.6 with iframe interaction support while tuning flynn's game AI and visual polish across Pong and Snake."
 commits:
   - { repo: "charlotte", sha: "4110732", msg: "Release v0.6.3: republish with correct dist, add prepublishOnly", ts: "4d", tag: g }
   - { repo: "charlotte", sha: "3ca44f3", msg: "Update docs and version for v0.6.2 release", ts: "4d", tag: g }
@@ -18,7 +18,7 @@ commits:
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Charlotte is polishing iframe interaction support and release processes while Flynn enhances game AI and visual effects across Pong and Snake.
+**Right now:** Shipping charlotte 0.6 with iframe interaction support while tuning flynn's game AI and visual polish across Pong and Snake.
 
 | Repo | Commit | Message | When |
 |---|---|---|---|
