@@ -145,14 +145,33 @@ def summarize(commits: list[dict]) -> str:
         return "Building things, breaking things, occasionally shipping them."
 
     commit_lines = "\n".join(
-        f"- {c['repo']}: {c['msg']}" for c in commits[:20]
+        f"- [{c['repo']}] {c['msg']}" for c in commits[:20]
     )
     prompt = (
-        "Given these recent public git commits, write ONE concise sentence "
-        "(max 140 characters) describing what the developer is currently "
-        "working on. Casual but technical tone. Third person, present tense. "
-        "No quotes, no prefixes like 'Summary:'. Just the sentence.\n\n"
-        f"{commit_lines}"
+        "You are summarizing recent git activity for Wes Shoffner's personal "
+        "site. Below is a list of commits across his PUBLIC REPOSITORIES. "
+        "The names in [brackets] are REPO NAMES (projects, tools, libraries) "
+        "— not people. Examples: 'charlotte' is an MCP server, 'flynn' is a "
+        "browser-game project, 'REPRAM' is an ephemeral key-value store.\n\n"
+        "Write ONE sentence (max 160 chars) describing what Wes is currently "
+        "working on across these projects.\n\n"
+        "REQUIREMENTS:\n"
+        "- Third person, present tense, referring to Wes implicitly "
+        "  (start with a verb or 'Currently...'). Do NOT name Wes.\n"
+        "- Refer to repos by their lowercase name as projects, e.g. "
+        "  'polishing charlotte's iframe support' — not 'Charlotte is polishing'.\n"
+        "- 2-4 projects max; group or pick the most active.\n"
+        "- Casual but technical. No hype words ('exciting', 'amazing').\n"
+        "- No quotes, no prefixes like 'Summary:' or 'Right now:'. Just the sentence.\n\n"
+        "GOOD EXAMPLE:\n"
+        "Finishing charlotte 0.6 iframe support, tuning flynn's game AI, and trying not to break the homelab.\n\n"
+        "BAD EXAMPLES (do not do this):\n"
+        "- 'Charlotte is polishing iframe support...' (treats repo as a person)\n"
+        "- 'Wes is working on...' (names Wes explicitly)\n"
+        "- 'Exciting progress on...' (hype)\n\n"
+        "COMMITS:\n"
+        f"{commit_lines}\n\n"
+        "Now write the sentence:"
     )
     payload = {
         "model": "claude-haiku-4-5-20251001",
