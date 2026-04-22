@@ -142,7 +142,7 @@ def tag_for(msg: str) -> str:
 
 def summarize(commits: list[dict]) -> str:
     if not ANTHROPIC_API_KEY or not commits:
-        return "Building things, breaking things, occasionally shipping them."
+        return "Recent commits across public repos."
 
     commit_lines = "\n".join(
         f"- [{c['repo']}] {c['msg']}" for c in commits[:20]
@@ -192,13 +192,13 @@ def summarize(commits: list[dict]) -> str:
             data = json.loads(resp.read().decode())
     except urllib.error.HTTPError as e:
         print(f"anthropic api error: {e.code} {e.read().decode()[:200]}")
-        return "Building things, breaking things, occasionally shipping them."
+        return "Recent commits across public repos."
 
     text = "".join(
         b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
     ).strip()
     return text.replace("\n", " ")[:160] or (
-        "Building things, breaking things, occasionally shipping them."
+        "Recent commits across public repos."
     )
 
 
