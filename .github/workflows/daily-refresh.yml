@@ -1,4 +1,4 @@
-name: update now.working
+name: daily refresh
 
 on:
   schedule:
@@ -6,15 +6,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  refresh:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: checkout
         uses: actions/checkout@v4
+
+      - name: fetch and update blog posts
+        run: python scripts/update_blog_posts.py
 
       - name: refresh now.working
         env:
@@ -26,7 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --quiet NOW.md && exit 0
-          git add NOW.md
-          git commit -m "Update now.working"
+          git add README.md NOW.md
+          git diff --staged --quiet && exit 0
+          git commit -m "Daily refresh: blog posts and now.working"
           git push
