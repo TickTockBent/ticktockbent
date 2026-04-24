@@ -27,11 +27,11 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 <!-- This section is auto-updated nightly by a GitHub Action -->
 | Post | Description |
 |---|---|
+| [Your Phone as a Terminal: One Command, One QR Code, No SSH Client](https://www.wshoffner.dev/blog/termbeam) | It happens a few times a year. I'm away from my laptop, a deploy is stuck, and I want to tail a log... |
 | [htop for Your Git History](https://www.wshoffner.dev/blog/gittop) | You clone a repo you've never seen before and you want to understand it. Not the code, not yet. The... |
 | [What's Actually in Your Docker Image? Reading the Parser That Tells You](https://www.wshoffner.dev/blog/xray) | Everyone who works with Docker images eventually asks the question: why is this image 2 GB? You... |
 | [When AI Writes Your Firewall, Check the Math](https://www.wshoffner.dev/blog/blackwall) | A Python developer with "AI Solutions Architect" in their GitHub bio pushes 8,500 lines of eBPF Rust... |
 | [A Rust TUI for Your UniFi Network That Actually Takes Code Review Seriously](https://www.wshoffner.dev/blog/unifly) | If you run UniFi gear, you manage it through a web UI. That's fine until you need to script... |
-| [Anatomy of a GitHub Actions Supply Chain Attack Targeting MCP Repos](https://www.wshoffner.dev/blog/anatomy-of-a-github-actions-supply-chain-attack-targeting-mcp-repos) | On April 7th, someone submitted a pull request to my project Charlotte. 28 lines. One new file. A... |
 <!-- BLOG-POSTS:END -->
 
 ---
