@@ -1,9 +1,9 @@
 ---
-updatedAt: 2026-04-23T06:31:55Z
-summary: "Polishing charlotte's iframe interaction support with cross-frame validation, and refining flynn's game AI and visual effects across Pong and Snake."
+updatedAt: 2026-04-24T06:32:59Z
+summary: "Shipping charlotte 0.6 with iframe interaction support while refining AI and visuals across flynn's game collection."
 commits:
-  - { repo: "charlotte", sha: "4110732", msg: "Release v0.6.3: republish with correct dist, add prepublishOnly", ts: "5d", tag: g }
-  - { repo: "charlotte", sha: "3ca44f3", msg: "Update docs and version for v0.6.2 release", ts: "6d", tag: g }
+  - { repo: "charlotte", sha: "4110732", msg: "Release v0.6.3: republish with correct dist, add prepublishOnly", ts: "6d", tag: g }
+  - { repo: "charlotte", sha: "3ca44f3", msg: "Update docs and version for v0.6.2 release", ts: "1w", tag: g }
   - { repo: "charlotte", sha: "49c658e", msg: "style: fix prettier formatting in CDP endpoint files", ts: "1w", tag: c }
   - { repo: "charlotte", sha: "53ac585", msg: "fix: validate cross-frame drag and surface CharlotteError", ts: "1w", tag: c }
   - { repo: "charlotte", sha: "600e3b3", msg: "feat: enable interaction with iframe elements (#66)", ts: "1w", tag: g }
@@ -18,12 +18,12 @@ commits:
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Polishing charlotte's iframe interaction support with cross-frame validation, and refining flynn's game AI and visual effects across Pong and Snake.
+**Right now:** Shipping charlotte 0.6 with iframe interaction support while refining AI and visuals across flynn's game collection.
 
 | Repo | Commit | Message | When |
 |---|---|---|---|
-| charlotte | `4110732` | Release v0.6.3: republish with correct dist, add prepublishOnly | 5d |
-| charlotte | `3ca44f3` | Update docs and version for v0.6.2 release | 6d |
+| charlotte | `4110732` | Release v0.6.3: republish with correct dist, add prepublishOnly | 6d |
+| charlotte | `3ca44f3` | Update docs and version for v0.6.2 release | 1w |
 | charlotte | `49c658e` | style: fix prettier formatting in CDP endpoint files | 1w |
 | charlotte | `53ac585` | fix: validate cross-frame drag and surface CharlotteError | 1w |
 | charlotte | `600e3b3` | feat: enable interaction with iframe elements (#66) | 1w |
