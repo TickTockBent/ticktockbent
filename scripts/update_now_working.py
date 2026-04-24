@@ -5,9 +5,16 @@ Runs nightly in GitHub Actions. Consumed by wshoffner.dev's now.working
 panel, which fetches NOW.md from raw.githubusercontent.com at build time
 with hourly ISR revalidation.
 
-Only public repos are scanned. The GitHub API naturally excludes private
-repos for unauthenticated or token-scoped requests, but we also filter
-defensively on `private`, `fork`, and `archived`.
+Two sources are merged:
+  1. Own repos — /repos/{user}/{repo}/commits for every public non-fork
+     repo the user owns.
+  2. External contributions — /search/commits?q=author:{user}, which
+     surfaces merged PRs and direct commits to repos the user does NOT own
+     (e.g. upstream contributions). Own-repo results from search are
+     dropped; the dedicated own-repo crawler handles those.
+
+Only public repos are surfaced. We filter defensively on `private`,
+`fork`, and `archived`.
 """
 
 from __future__ import annotations
@@ -111,6 +118,61 @@ def recent_commits(repo: str) -> list[dict]:
         )
         if len(out) >= MAX_COMMITS_PER_REPO:
             break
+    return out
+
+
+def external_contributions() -> list[dict]:
+    """Commits authored by GITHUB_USER in repos owned by someone else.
+
+    Uses the search/commits API, which indexes default-branch commits across
+    all public repos. Requires an authenticated token (we pass GITHUB_TOKEN
+    via gh()). Results are capped per-repo to mirror own-repo behavior.
+    """
+    since_dt = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
+    try:
+        data = gh(
+            f"/search/commits?q=author:{GITHUB_USER}"
+            f"&sort=author-date&order=desc&per_page=50"
+        )
+    except urllib.error.HTTPError as e:
+        print(f"  search/commits error: {e.code}")
+        return []
+    except Exception as e:
+        print(f"  search/commits error: {e}")
+        return []
+
+    out: list[dict] = []
+    per_repo_count: dict[str, int] = {}
+    for item in data.get("items", []):
+        repo_info = item.get("repository") or {}
+        if repo_info.get("fork") or repo_info.get("private"):
+            continue
+        owner_login = (repo_info.get("owner") or {}).get("login", "")
+        if owner_login.lower() == GITHUB_USER.lower():
+            continue  # own repo — covered by recent_commits()
+        full_name = repo_info.get("full_name", "")
+        if not full_name:
+            continue
+
+        date_str = item["commit"]["author"]["date"]
+        dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        if dt < since_dt:
+            continue
+
+        msg = item["commit"]["message"].split("\n", 1)[0][:120]
+        if is_noise(msg):
+            continue
+        if per_repo_count.get(full_name, 0) >= MAX_COMMITS_PER_REPO:
+            continue
+        per_repo_count[full_name] = per_repo_count.get(full_name, 0) + 1
+        out.append(
+            {
+                "repo": full_name,
+                "sha": item["sha"][:7],
+                "msg": msg,
+                "date": date_str,
+            }
+        )
     return out
 
 
@@ -246,10 +308,23 @@ def main() -> None:
     repos = list_public_repos()
     print(f"  {len(repos)} repos: {', '.join(repos)}")
 
-    print("Collecting recent commits...")
+    print("Collecting recent commits (own repos)...")
     all_commits: list[dict] = []
     for r in repos:
         all_commits.extend(recent_commits(r))
+
+    print("Collecting external contributions via search/commits...")
+    all_commits.extend(external_contributions())
+
+    seen: set[tuple[str, str]] = set()
+    deduped: list[dict] = []
+    for c in all_commits:
+        key = (c["repo"], c["sha"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(c)
+    all_commits = deduped
     all_commits.sort(key=lambda c: c["date"], reverse=True)
 
     print(f"  {len(all_commits)} commits in last {DAYS_BACK} days")
