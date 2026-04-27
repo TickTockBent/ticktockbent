@@ -28,8 +28,8 @@ from datetime import datetime, timedelta, timezone
 GITHUB_USER = "TickTockBent"
 DAYS_BACK = 14
 MAX_REPOS = 15
-MAX_COMMITS_PER_REPO = 5
-MAX_COMMITS_TOTAL = 12
+MAX_COMMITS_PER_REPO = 8
+MAX_PROJECTS = 8
 OUTPUT_PATH = "NOW.md"
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -202,42 +202,45 @@ def tag_for(msg: str) -> str:
     return "g"
 
 
-def summarize(commits: list[dict]) -> str:
-    if not ANTHROPIC_API_KEY or not commits:
-        return "Building things, breaking things, occasionally shipping them."
+def group_by_repo(commits: list[dict]) -> list[dict]:
+    """Group commits by repo, sorted by latest commit date (most recent first).
 
-    commit_lines = "\n".join(
-        f"- [{c['repo']}] {c['msg']}" for c in commits[:20]
-    )
-    prompt = (
-        "You are summarizing recent git activity for Wes Shoffner's personal "
-        "site. Below is a list of commits across his PUBLIC REPOSITORIES. "
-        "The names in [brackets] are REPO NAMES (projects, tools, libraries) "
-        "— not people. Examples: 'charlotte' is an MCP server, 'flynn' is a "
-        "browser-game project, 'REPRAM' is an ephemeral key-value store.\n\n"
-        "Write ONE sentence (max 160 chars) describing what Wes is currently "
-        "working on across these projects.\n\n"
-        "REQUIREMENTS:\n"
-        "- Third person, present tense, referring to Wes implicitly "
-        "  (start with a verb or 'Currently...'). Do NOT name Wes.\n"
-        "- Refer to repos by their lowercase name as projects, e.g. "
-        "  'polishing charlotte's iframe support' — not 'Charlotte is polishing'.\n"
-        "- 2-4 projects max; group or pick the most active.\n"
-        "- Casual but technical. No hype words ('exciting', 'amazing').\n"
-        "- No quotes, no prefixes like 'Summary:' or 'Right now:'. Just the sentence.\n\n"
-        "GOOD EXAMPLE:\n"
-        "Finishing charlotte 0.6 iframe support, tuning flynn's game AI, and trying not to break the homelab.\n\n"
-        "BAD EXAMPLES (do not do this):\n"
-        "- 'Charlotte is polishing iframe support...' (treats repo as a person)\n"
-        "- 'Wes is working on...' (names Wes explicitly)\n"
-        "- 'Exciting progress on...' (hype)\n\n"
-        "COMMITS:\n"
-        f"{commit_lines}\n\n"
-        "Now write the sentence:"
-    )
+    Each group carries the full commit list (used by the summarizer prompt) plus
+    derived display fields (count, latest sha, latest date).
+    """
+    groups: dict[str, dict] = {}
+    for c in commits:
+        g = groups.setdefault(
+            c["repo"],
+            {"repo": c["repo"], "commits": [], "latest_date": c["date"]},
+        )
+        g["commits"].append(c)
+        if c["date"] > g["latest_date"]:
+            g["latest_date"] = c["date"]
+
+    out = list(groups.values())
+    for g in out:
+        # Newest commit first inside each project, so latest_sha is unambiguous.
+        g["commits"].sort(key=lambda c: c["date"], reverse=True)
+        g["count"] = len(g["commits"])
+        g["latest_sha"] = g["commits"][0]["sha"]
+    out.sort(key=lambda g: g["latest_date"], reverse=True)
+    return out
+
+
+def fallback_description(group: dict) -> str:
+    """Used when Claude is unavailable or returns nothing for a project.
+
+    Picks the newest non-trivial commit message and trims it.
+    """
+    msg = group["commits"][0]["msg"]
+    return msg[:100]
+
+
+def call_claude(prompt: str) -> str:
     payload = {
         "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 200,
+        "max_tokens": 800,
         "messages": [{"role": "user", "content": prompt}],
     }
     req = urllib.request.Request(
@@ -249,36 +252,118 @@ def summarize(commits: list[dict]) -> str:
             "content-type": "application/json",
         },
     )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.loads(resp.read().decode())
-    except urllib.error.HTTPError as e:
-        print(f"anthropic api error: {e.code} {e.read().decode()[:200]}")
-        return "Building things, breaking things, occasionally shipping them."
-
-    text = "".join(
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode())
+    return "".join(
         b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
     ).strip()
-    return text.replace("\n", " ")[:160] or (
-        "Building things, breaking things, occasionally shipping them."
+
+
+def extract_json_object(text: str) -> dict | None:
+    """Pull the first {...} block out of text. Haiku sometimes wraps JSON in
+    prose or fences even when told not to; this is defensive."""
+    if not text:
+        return None
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return None
+    try:
+        return json.loads(text[start : end + 1])
+    except json.JSONDecodeError:
+        return None
+
+
+def summarize_groups(groups: list[dict]) -> tuple[str, dict[str, str]]:
+    """Return (overall_summary, {repo: description}).
+
+    One Claude call produces both the global summary line and per-project
+    descriptions. Falls back to deterministic strings when the API is
+    unavailable.
+    """
+    fallback_summary = "Building things, breaking things, occasionally shipping them."
+    fallback_descs = {g["repo"]: fallback_description(g) for g in groups}
+
+    if not ANTHROPIC_API_KEY or not groups:
+        return fallback_summary, fallback_descs
+
+    project_payload = [
+        {
+            "repo": g["repo"],
+            "commit_count": g["count"],
+            "messages": [c["msg"] for c in g["commits"][:MAX_COMMITS_PER_REPO]],
+        }
+        for g in groups
+    ]
+
+    prompt = (
+        "You are summarizing recent git activity for Wes Shoffner's personal "
+        "site. Below is JSON describing recent commits across his PUBLIC "
+        "REPOSITORIES, grouped by project. Repo names are projects, not "
+        "people. Examples: 'charlotte' is an MCP server, 'flynn' is a "
+        "browser-game project, 'REPRAM' is an ephemeral key-value store.\n\n"
+        "Return ONLY a JSON object with this exact shape (no prose, no fences):\n"
+        "{\n"
+        '  "summary": "<one sentence, max 160 chars>",\n'
+        '  "projects": [\n'
+        '    {"repo": "<repo name>", "description": "<one clause, max 100 chars>"}\n'
+        "  ]\n"
+        "}\n\n"
+        "REQUIREMENTS:\n"
+        "- Include EVERY repo from the input in projects, using the exact repo "
+        "name as a key.\n"
+        "- summary: 2-4 most active projects, third person, present tense, no "
+        "  hype words. Refer to repos as projects (e.g. 'polishing charlotte's "
+        "  iframe support'). Do NOT name Wes.\n"
+        "- description per project: capture the THEME of the work, not a list "
+        "  of commits. Lowercase verb start preferred (e.g. 'shipping v0.6 "
+        "  iframe interaction support'). Skip filler like 'working on'.\n"
+        "- No quotes around clauses, no prefixes like 'Summary:'.\n\n"
+        "INPUT:\n"
+        f"{json.dumps(project_payload, indent=2)}\n"
     )
 
+    try:
+        text = call_claude(prompt)
+    except urllib.error.HTTPError as e:
+        print(f"anthropic api error: {e.code} {e.read().decode()[:200]}")
+        return fallback_summary, fallback_descs
+    except Exception as e:
+        print(f"anthropic api error: {e}")
+        return fallback_summary, fallback_descs
 
-def write_now_md(summary: str, commits: list[dict]) -> None:
+    parsed = extract_json_object(text)
+    if not parsed:
+        print(f"  could not parse JSON from claude response: {text[:200]}")
+        return fallback_summary, fallback_descs
+
+    summary = (parsed.get("summary") or "").replace("\n", " ").strip()[:160]
+    descs: dict[str, str] = dict(fallback_descs)
+    for entry in parsed.get("projects") or []:
+        repo = entry.get("repo")
+        desc = (entry.get("description") or "").replace("\n", " ").strip()
+        if repo and desc:
+            descs[repo] = desc[:100]
+
+    return summary or fallback_summary, descs
+
+
+def write_now_md(summary: str, projects: list[dict]) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     lines = [
         "---",
         f"updatedAt: {now}",
         f"summary: {json.dumps(summary)}",
-        "commits:",
+        "projects:",
     ]
-    for c in commits:
+    for p in projects:
         entry = (
-            f"  - {{ repo: {json.dumps(c['repo'])}, "
-            f"sha: {json.dumps(c['sha'])}, "
-            f"msg: {json.dumps(c['msg'])}, "
-            f"ts: {json.dumps(c['ts'])}, "
-            f"tag: {c['tag']} }}"
+            f"  - {{ repo: {json.dumps(p['repo'])}, "
+            f"commits: {p['count']}, "
+            f"msg: {json.dumps(p['msg'])}, "
+            f"latest_sha: {json.dumps(p['latest_sha'])}, "
+            f"ts: {json.dumps(p['ts'])}, "
+            f"tag: {p['tag']} }}"
         )
         lines.append(entry)
     lines += ["---", ""]
@@ -290,17 +375,17 @@ def write_now_md(summary: str, commits: list[dict]) -> None:
         "",
         f"**Right now:** {summary}",
         "",
-        "| Repo | Commit | Message | When |",
+        "| Project | Commits | Activity | Latest |",
         "|---|---|---|---|",
     ]
-    for c in commits:
+    for p in projects:
         lines.append(
-            f"| {c['repo']} | `{c['sha']}` | {c['msg']} | {c['ts']} |"
+            f"| {p['repo']} | {p['count']} | {p['msg']} | {p['ts']} |"
         )
     lines.append("")
     with open(OUTPUT_PATH, "w") as f:
         f.write("\n".join(lines))
-    print(f"Wrote {OUTPUT_PATH} ({len(commits)} commits).")
+    print(f"Wrote {OUTPUT_PATH} ({len(projects)} projects).")
 
 
 def main() -> None:
@@ -329,20 +414,26 @@ def main() -> None:
 
     print(f"  {len(all_commits)} commits in last {DAYS_BACK} days")
 
+    groups = group_by_repo(all_commits)[:MAX_PROJECTS]
+    print(f"  {len(groups)} projects: {', '.join(g['repo'] for g in groups)}")
+
     print("Summarizing via Claude Haiku...")
-    summary = summarize(all_commits)
+    summary, descs = summarize_groups(groups)
     print(f"  summary: {summary}")
 
-    display = [
-        {
-            "repo": c["repo"],
-            "sha": c["sha"],
-            "msg": c["msg"],
-            "ts": humanize_ago(c["date"]),
-            "tag": tag_for(c["msg"]),
-        }
-        for c in all_commits[:MAX_COMMITS_TOTAL]
-    ]
+    display = []
+    for g in groups:
+        msg = descs.get(g["repo"]) or fallback_description(g)
+        display.append(
+            {
+                "repo": g["repo"],
+                "count": g["count"],
+                "msg": msg,
+                "latest_sha": g["latest_sha"],
+                "ts": humanize_ago(g["latest_date"]),
+                "tag": tag_for(msg),
+            }
+        )
     write_now_md(summary, display)
 
 
