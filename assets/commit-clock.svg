@@ -42,7 +42,7 @@
 <circle cx="293.3" cy="325.1" r="4.6" fill="#72acfd" opacity="0.43" filter="url(#glow)"/>
 <circle cx="272.4" cy="333.7" r="6.0" fill="#75b7fd" opacity="0.61" filter="url(#glow)"/>
 <circle cx="250.0" cy="336.7" r="8.0" fill="#7dcfff" opacity="1.00" filter="url(#glow)"/>
-<circle cx="227.6" cy="333.7" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
+<circle cx="227.6" cy="333.7" r="4.8" fill="#72adfd" opacity="0.45" filter="url(#glow)"/>
 <circle cx="206.7" cy="325.1" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="188.7" cy="311.3" r="4.9" fill="#73aefd" opacity="0.47" filter="url(#glow)"/>
 <circle cx="174.9" cy="293.3" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
@@ -54,7 +54,7 @@
 <circle cx="354.6" cy="278.0" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="343.8" cy="304.2" r="6.4" fill="#76bbfe" opacity="0.67" filter="url(#glow)"/>
 <circle cx="326.6" cy="326.6" r="5.6" fill="#74b4fd" opacity="0.56" filter="url(#glow)"/>
-<circle cx="304.2" cy="343.8" r="6.7" fill="#77befe" opacity="0.72" filter="url(#glow)"/>
+<circle cx="304.2" cy="343.8" r="6.8" fill="#78bffe" opacity="0.74" filter="url(#glow)"/>
 <circle cx="278.0" cy="354.6" r="6.9" fill="#78c0fe" opacity="0.76" filter="url(#glow)"/>
 <circle cx="250.0" cy="358.3" r="5.5" fill="#74b3fd" opacity="0.54" filter="url(#glow)"/>
 <circle cx="222.0" cy="354.6" r="4.8" fill="#72adfd" opacity="0.45" filter="url(#glow)"/>
@@ -70,7 +70,7 @@
 <circle cx="362.6" cy="315.0" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
 <circle cx="341.9" cy="341.9" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
 <circle cx="315.0" cy="362.6" r="5.6" fill="#74b4fd" opacity="0.56" filter="url(#glow)"/>
-<circle cx="283.6" cy="375.6" r="3.0" fill="#70a6fd" opacity="0.32" filter="url(#glow)"/>
+<circle cx="283.6" cy="375.6" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="250.0" cy="380.0" r="3.9" fill="#71a9fd" opacity="0.37" filter="url(#glow)"/>
 <circle cx="216.4" cy="375.6" r="5.2" fill="#73b1fd" opacity="0.50" filter="url(#glow)"/>
 <circle cx="185.0" cy="362.6" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
@@ -79,14 +79,15 @@
 <circle cx="120.0" cy="250.0" r="5.4" fill="#74b2fd" opacity="0.52" filter="url(#glow)"/>
 <circle cx="124.4" cy="216.4" r="3.7" fill="#71a8fd" opacity="0.36" filter="url(#glow)"/>
 <circle cx="396.5" cy="210.7" r="3.0" fill="#70a6fd" opacity="0.32" filter="url(#glow)"/>
+<circle cx="401.7" cy="250.0" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="396.5" cy="289.3" r="4.6" fill="#72acfd" opacity="0.43" filter="url(#glow)"/>
 <circle cx="381.3" cy="325.8" r="6.4" fill="#76bbfe" opacity="0.67" filter="url(#glow)"/>
 <circle cx="357.2" cy="357.2" r="5.5" fill="#74b3fd" opacity="0.54" filter="url(#glow)"/>
 <circle cx="325.8" cy="381.3" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="289.3" cy="396.5" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
 <circle cx="250.0" cy="401.7" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
-<circle cx="210.7" cy="396.5" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
-<circle cx="174.2" cy="381.3" r="3.0" fill="#70a6fd" opacity="0.32" filter="url(#glow)"/>
+<circle cx="210.7" cy="396.5" r="4.9" fill="#73aefd" opacity="0.47" filter="url(#glow)"/>
+<circle cx="174.2" cy="381.3" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
 <circle cx="118.7" cy="325.8" r="3.4" fill="#70a7fd" opacity="0.34" filter="url(#glow)"/>
 <circle cx="103.5" cy="289.3" r="4.2" fill="#71aafd" opacity="0.39" filter="url(#glow)"/>
 <circle cx="98.3" cy="250.0" r="3.9" fill="#71a9fd" opacity="0.37" filter="url(#glow)"/>
@@ -99,7 +100,7 @@
 <circle cx="205.1" cy="417.4" r="3.0" fill="#70a6fd" opacity="0.32" filter="url(#glow)"/>
 <circle cx="163.3" cy="400.1" r="3.7" fill="#71a8fd" opacity="0.36" filter="url(#glow)"/>
 <circle cx="127.4" cy="372.6" r="3.9" fill="#71a9fd" opacity="0.37" filter="url(#glow)"/>
-<circle cx="99.9" cy="336.7" r="4.4" fill="#72abfd" opacity="0.41" filter="url(#glow)"/>
+<circle cx="99.9" cy="336.7" r="4.6" fill="#72acfd" opacity="0.43" filter="url(#glow)"/>
 <circle cx="82.6" cy="294.9" r="3.0" fill="#70a6fd" opacity="0.32" filter="url(#glow)"/>
 <circle cx="82.6" cy="205.1" r="3.9" fill="#71a9fd" opacity="0.37" filter="url(#glow)"/>
 <circle cx="99.9" cy="163.3" r="5.9" fill="#75b6fd" opacity="0.59" filter="url(#glow)"/>
