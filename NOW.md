@@ -1,16 +1,16 @@
 ---
-updatedAt: 2026-05-12T06:58:20Z
-summary: "enhancing REPRAM's connection pooling and WebSocket handling with dedicated peer agents and parallel broadcasts"
+updatedAt: 2026-05-13T07:02:10Z
+summary: "advancing REPRAM's cluster integration and network topology visualization"
 projects:
-  - { repo: "REPRAM", commits: 8, msg: "parallelize broadcasts via dedicated per-peer agents, skip self in WebSocket candidates, tighten tim", latest_sha: "83175a4", ts: "1d", tag: g }
+  - { repo: "REPRAM", commits: 8, msg: "shipping cluster integration, tree manager lifecycle, and public network topology dashboard", latest_sha: "732708f", ts: "14h", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** enhancing REPRAM's connection pooling and WebSocket handling with dedicated peer agents and parallel broadcasts
+**Right now:** advancing REPRAM's cluster integration and network topology visualization
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| REPRAM | 8 | parallelize broadcasts via dedicated per-peer agents, skip self in WebSocket candidates, tighten tim | 1d |
+| REPRAM | 8 | shipping cluster integration, tree manager lifecycle, and public network topology dashboard | 14h |
