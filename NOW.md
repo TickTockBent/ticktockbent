@@ -1,9 +1,9 @@
 ---
-updatedAt: 2026-05-25T07:33:40Z
+updatedAt: 2026-05-26T07:12:09Z
 summary: "refactoring book-genesis pipeline orchestration and advancing REPRAM cluster integration phases"
 projects:
-  - { repo: "book-genesis", commits: 8, msg: "migrating pipeline to Inngest durable functions with parser fixes and token budget per-skill allocat", latest_sha: "fe3bebb", ts: "2d", tag: c }
-  - { repo: "REPRAM", commits: 8, msg: "implementing cluster integration with tree manager lifecycle, MCP WebSocket attachment, and network ", latest_sha: "732708f", ts: "1w", tag: g }
+  - { repo: "book-genesis", commits: 8, msg: "migrating pipeline to Inngest durable functions and fixing parser logic for floor_score and chapter ", latest_sha: "fe3bebb", ts: "3d", tag: c }
+  - { repo: "REPRAM", commits: 8, msg: "implementing cluster integration, tree manager lifecycle, and public network topology dashboard for ", latest_sha: "732708f", ts: "1w", tag: g }
 ---
 
 ## now.working
@@ -14,5 +14,5 @@ _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](htt
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| book-genesis | 8 | migrating pipeline to Inngest durable functions with parser fixes and token budget per-skill allocat | 2d |
-| REPRAM | 8 | implementing cluster integration with tree manager lifecycle, MCP WebSocket attachment, and network  | 1w |
+| book-genesis | 8 | migrating pipeline to Inngest durable functions and fixing parser logic for floor_score and chapter  | 3d |
+| REPRAM | 8 | implementing cluster integration, tree manager lifecycle, and public network topology dashboard for  | 1w |
