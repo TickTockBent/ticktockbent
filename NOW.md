@@ -1,6 +1,6 @@
 ---
-updatedAt: 2026-06-03T07:41:33Z
-summary: "Migrating book-genesis pipeline orchestrator to Inngest durable functions"
+updatedAt: 2026-06-04T07:37:39Z
+summary: "Modernizing book-genesis pipeline with Inngest durable functions."
 projects:
   - { repo: "book-genesis", commits: 1, msg: "migrate pipeline orchestrator to Inngest durable functions", latest_sha: "fe3bebb", ts: "1w", tag: g }
 ---
@@ -9,7 +9,7 @@ projects:
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Migrating book-genesis pipeline orchestrator to Inngest durable functions
+**Right now:** Modernizing book-genesis pipeline with Inngest durable functions.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
