@@ -1,16 +1,16 @@
 ---
-updatedAt: 2026-06-07T07:23:46Z
-summary: "shipping cultivation_prestige's early-game progression spine with Foundation Grade gating and realm prestige mechanics"
+updatedAt: 2026-06-08T07:41:41Z
+summary: "building out cultivation_prestige's early-game progression with realm gates, grade scaling, and discipline systems"
 projects:
-  - { repo: "cultivation_prestige", commits: 8, msg: "building out early-game cultivation loop with gating, grade scaling, and prestige realm progression", latest_sha: "df1c932", ts: "2d", tag: g }
+  - { repo: "cultivation_prestige", commits: 8, msg: "architecting early-game progression loop with realm prestige, foundation gates, and grade-based paci", latest_sha: "df1c932", ts: "3d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** shipping cultivation_prestige's early-game progression spine with Foundation Grade gating and realm prestige mechanics
+**Right now:** building out cultivation_prestige's early-game progression with realm gates, grade scaling, and discipline systems
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| cultivation_prestige | 8 | building out early-game cultivation loop with gating, grade scaling, and prestige realm progression | 2d |
+| cultivation_prestige | 8 | architecting early-game progression loop with realm prestige, foundation gates, and grade-based paci | 3d |
