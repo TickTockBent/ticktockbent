@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-06-10T07:28:49Z
-summary: "cultivation_prestige receives major early-game systems work; charlotte gets test fixes and input handling improvements"
+updatedAt: 2026-06-11T07:40:14Z
+summary: "shipping charlotte v0.7.0 with verification fixes and benchmark updates; booting cultivation_prestige early-game with realm progression"
 projects:
-  - { repo: "charlotte", commits: 2, msg: "fixing dialog test flakiness and adding timeout guards for large text inputs", latest_sha: "1ae317a", ts: "9h", tag: c }
-  - { repo: "cultivation_prestige", commits: 8, msg: "building out early-game progression systems with realm prestige, grade gates, and cultivation loop m", latest_sha: "df1c932", ts: "5d", tag: g }
+  - { repo: "charlotte", commits: 8, msg: "shipping v0.7.0 with verification gap fixes, benchmark re-runs, and docs sweep", latest_sha: "4ceffd2", ts: "1d", tag: c }
+  - { repo: "cultivation_prestige", commits: 8, msg: "boot cultivation mod with realm prestige spine, Foundation Grade gating, and early-game progression", latest_sha: "df1c932", ts: "6d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** cultivation_prestige receives major early-game systems work; charlotte gets test fixes and input handling improvements
+**Right now:** shipping charlotte v0.7.0 with verification fixes and benchmark updates; booting cultivation_prestige early-game with realm progression
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| charlotte | 2 | fixing dialog test flakiness and adding timeout guards for large text inputs | 9h |
-| cultivation_prestige | 8 | building out early-game progression systems with realm prestige, grade gates, and cultivation loop m | 5d |
+| charlotte | 8 | shipping v0.7.0 with verification gap fixes, benchmark re-runs, and docs sweep | 1d |
+| cultivation_prestige | 8 | boot cultivation mod with realm prestige spine, Foundation Grade gating, and early-game progression | 6d |
