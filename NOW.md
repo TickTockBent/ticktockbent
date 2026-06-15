@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-06-14T07:35:49Z
-summary: "cultivation_prestige and charlotte receive major feature and verification work, expanding soul mechanics and closing protocol gaps respectively."
+updatedAt: 2026-06-15T07:57:54Z
+summary: "shipping charlotte v0.7.0 with verification fixes and cultivation_prestige's Dao Tree game progression"
 projects:
-  - { repo: "cultivation_prestige", commits: 8, msg: "expanding cultivation progression through soul formation, sect systems, dao lattice, and persistence", latest_sha: "28ecf86", ts: "1d", tag: g }
-  - { repo: "charlotte", commits: 8, msg: "shipping v0.7.0 with verification fixes, benchmark harness improvements, and protocol error handling", latest_sha: "4ceffd2", ts: "4d", tag: c }
+  - { repo: "cultivation_prestige", commits: 8, msg: "building Dao Tree game with sect system, soul formation mechanics, pacing tuning, and itch.io CI", latest_sha: "5c318bc", ts: "13h", tag: g }
+  - { repo: "charlotte", commits: 8, msg: "releasing v0.7.0 with benchmark re-runs, protocol verification fixes, and docs sweep", latest_sha: "4ceffd2", ts: "5d", tag: c }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** cultivation_prestige and charlotte receive major feature and verification work, expanding soul mechanics and closing protocol gaps respectively.
+**Right now:** shipping charlotte v0.7.0 with verification fixes and cultivation_prestige's Dao Tree game progression
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| cultivation_prestige | 8 | expanding cultivation progression through soul formation, sect systems, dao lattice, and persistence | 1d |
-| charlotte | 8 | shipping v0.7.0 with verification fixes, benchmark harness improvements, and protocol error handling | 4d |
+| cultivation_prestige | 8 | building Dao Tree game with sect system, soul formation mechanics, pacing tuning, and itch.io CI | 13h |
+| charlotte | 8 | releasing v0.7.0 with benchmark re-runs, protocol verification fixes, and docs sweep | 5d |
