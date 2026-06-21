@@ -1,22 +1,22 @@
 ---
-updatedAt: 2026-06-20T07:20:10Z
-summary: "shipping number-go-up and number-go-up-oc toward launch with achievement systems and audio, advancing dao_tree automation features, and closing charlotte verifi"
+updatedAt: 2026-06-21T07:38:11Z
+summary: "shipping number-go-up and number-go-up-oc toward completion, refining charlotte's verification, advancing dao_tree's automation"
 projects:
-  - { repo: "number-go-up-oc", commits: 8, msg: "completing achievement system (67 total) and polish phase with visual effects and controller support", latest_sha: "a715be5", ts: "1d", tag: g }
-  - { repo: "number-go-up", commits: 8, msg: "building full upgrade trees, prestige loops, procedural audio engine, and 67-achievement system", latest_sha: "8ee6477", ts: "2d", tag: g }
-  - { repo: "dao_tree", commits: 8, msg: "adding foundation maturity auto-prestige, meridian bonuses, and cost curve automation", latest_sha: "ef731e2", ts: "4d", tag: g }
-  - { repo: "charlotte", commits: 8, msg: "closing v0.7.0 verification gaps and re-running benchmarks with DOM-ID and protocol fixes", latest_sha: "4ceffd2", ts: "1w", tag: c }
+  - { repo: "number-go-up-oc", commits: 8, msg: "completing early access checklist and finalizing all 67 achievements with polish phase", latest_sha: "a715be5", ts: "2d", tag: g }
+  - { repo: "number-go-up", commits: 8, msg: "building full game loop across milestones 1-7 with Tauri shell and Steam integration", latest_sha: "8ee6477", ts: "3d", tag: g }
+  - { repo: "dao_tree", commits: 8, msg: "implementing auto-cultivation prestige system with foundation maturity and sect-gating mechanics", latest_sha: "ef731e2", ts: "5d", tag: g }
+  - { repo: "charlotte", commits: 8, msg: "closing wave-6 verification gaps and releasing v0.7.0 with benchmark updates", latest_sha: "4ceffd2", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** shipping number-go-up and number-go-up-oc toward launch with achievement systems and audio, advancing dao_tree automation features, and closing charlotte verifi
+**Right now:** shipping number-go-up and number-go-up-oc toward completion, refining charlotte's verification, advancing dao_tree's automation
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| number-go-up-oc | 8 | completing achievement system (67 total) and polish phase with visual effects and controller support | 1d |
-| number-go-up | 8 | building full upgrade trees, prestige loops, procedural audio engine, and 67-achievement system | 2d |
-| dao_tree | 8 | adding foundation maturity auto-prestige, meridian bonuses, and cost curve automation | 4d |
-| charlotte | 8 | closing v0.7.0 verification gaps and re-running benchmarks with DOM-ID and protocol fixes | 1w |
+| number-go-up-oc | 8 | completing early access checklist and finalizing all 67 achievements with polish phase | 2d |
+| number-go-up | 8 | building full game loop across milestones 1-7 with Tauri shell and Steam integration | 3d |
+| dao_tree | 8 | implementing auto-cultivation prestige system with foundation maturity and sect-gating mechanics | 5d |
+| charlotte | 8 | closing wave-6 verification gaps and releasing v0.7.0 with benchmark updates | 1w |
