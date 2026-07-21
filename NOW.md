@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-07-20T07:03:55Z
-summary: "dongfu progresses through slice 1 with live screens and game shell, dao_tree ships v0.6.1 with lattice viewport improvements"
+updatedAt: 2026-07-21T06:51:06Z
+summary: "advancing dongfu's slice 1 implementation with game systems and instrumentation, polishing dao_tree's lattice visualization"
 projects:
-  - { repo: "dongfu", commits: 6, msg: "building slice 1 game shell with live screens, ViewModel selector, and Gate-D instrumentation", latest_sha: "6d7c62d", ts: "6d", tag: g }
-  - { repo: "dao_tree", commits: 4, msg: "shipping v0.6.1 with lattice fit-to-view, import/export, and feedback features", latest_sha: "88ba8ee", ts: "1w", tag: g }
+  - { repo: "dongfu", commits: 6, msg: "building slice 1 game shell with ViewModel layer, sim systems, and Gate-D instrumentation", latest_sha: "6d7c62d", ts: "1w", tag: g }
+  - { repo: "dao_tree", commits: 4, msg: "improving lattice viewport with fit-to-view scaling, export/import, and feedback features", latest_sha: "88ba8ee", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** dongfu progresses through slice 1 with live screens and game shell, dao_tree ships v0.6.1 with lattice viewport improvements
+**Right now:** advancing dongfu's slice 1 implementation with game systems and instrumentation, polishing dao_tree's lattice visualization
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| dongfu | 6 | building slice 1 game shell with live screens, ViewModel selector, and Gate-D instrumentation | 6d |
-| dao_tree | 4 | shipping v0.6.1 with lattice fit-to-view, import/export, and feedback features | 1w |
+| dongfu | 6 | building slice 1 game shell with ViewModel layer, sim systems, and Gate-D instrumentation | 1w |
+| dao_tree | 4 | improving lattice viewport with fit-to-view scaling, export/import, and feedback features | 1w |
