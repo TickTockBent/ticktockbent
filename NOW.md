@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-07-27T07:07:26Z
-summary: "advancing vimes' review and dispatch architecture while completing dongfu's first build slice"
+updatedAt: 2026-07-28T06:52:25Z
+summary: "shipping session dispatch and review flow improvements in vimes, adding enumeration to johnny"
 projects:
-  - { repo: "vimes", commits: 8, msg: "establishing independent review paths, auto-mode session dispatch, and auth-failure backoff handling", latest_sha: "98464ab", ts: "6h", tag: c }
-  - { repo: "dongfu", commits: 2, msg: "completing slice 1 with live screens and ViewModel selector layer implementation", latest_sha: "6d7c62d", ts: "1w", tag: g }
+  - { repo: "vimes", commits: 8, msg: "refining session completion loops, review paths, and permission modes with auth backoff handling", latest_sha: "ac39a6e", ts: "17h", tag: g }
+  - { repo: "johnny", commits: 1, msg: "adding list() method for non-semantic resource enumeration", latest_sha: "1b0d4db", ts: "18h", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** advancing vimes' review and dispatch architecture while completing dongfu's first build slice
+**Right now:** shipping session dispatch and review flow improvements in vimes, adding enumeration to johnny
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| vimes | 8 | establishing independent review paths, auto-mode session dispatch, and auth-failure backoff handling | 6h |
-| dongfu | 2 | completing slice 1 with live screens and ViewModel selector layer implementation | 1w |
+| vimes | 8 | refining session completion loops, review paths, and permission modes with auth backoff handling | 17h |
+| johnny | 1 | adding list() method for non-semantic resource enumeration | 18h |
