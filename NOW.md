@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-07-28T06:52:25Z
-summary: "shipping session dispatch and review flow improvements in vimes, adding enumeration to johnny"
+updatedAt: 2026-07-29T06:53:48Z
+summary: "shipping core queue dispatch and review systems in vimes, adding enumeration support to johnny"
 projects:
-  - { repo: "vimes", commits: 8, msg: "refining session completion loops, review paths, and permission modes with auth backoff handling", latest_sha: "ac39a6e", ts: "17h", tag: g }
-  - { repo: "johnny", commits: 1, msg: "adding list() method for non-semantic resource enumeration", latest_sha: "1b0d4db", ts: "18h", tag: g }
+  - { repo: "vimes", commits: 8, msg: "shipping queue dispatch, task staging, and independent review path with report tools", latest_sha: "96f834f", ts: "7h", tag: c }
+  - { repo: "johnny", commits: 1, msg: "adding list() for non-semantic enumeration support", latest_sha: "1b0d4db", ts: "1d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** shipping session dispatch and review flow improvements in vimes, adding enumeration to johnny
+**Right now:** shipping core queue dispatch and review systems in vimes, adding enumeration support to johnny
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| vimes | 8 | refining session completion loops, review paths, and permission modes with auth backoff handling | 17h |
-| johnny | 1 | adding list() method for non-semantic resource enumeration | 18h |
+| vimes | 8 | shipping queue dispatch, task staging, and independent review path with report tools | 7h |
+| johnny | 1 | adding list() for non-semantic enumeration support | 1d |
