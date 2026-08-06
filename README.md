@@ -97,16 +97,6 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 ---
 
-## 📖 Interactive Fiction
-
-A collaborative story, one turn at a time. Anyone can continue — just comment on the story issue.
-
-**The rules:** No back-to-back turns. 500 character limit. That's it.
-
-[📜 Join the story →](https://github.com/TickTockBent/ticktockbent/issues?q=is%3Aissue+is%3Aopen+label%3Ainteractive-fiction)
-
----
-
 ## 🕹️ Flynn's Arcade
 
 <div align="center">
