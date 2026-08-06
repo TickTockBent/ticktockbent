@@ -101,9 +101,9 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 <div align="center">
 
-<a href="https://github.com/TickTockBent/flynn"><img src="https://flynn-livid.vercel.app/api/game" alt="Random arcade game — refresh for another" /></a>
+<a href="https://github.com/TickTockBent/flynn"><img src="https://flynn-livid.vercel.app/api/game" alt="Random arcade game daily" /></a>
 
-*A random game plays every time you visit. [How it works →](https://github.com/TickTockBent/flynn)*
+*[How it works →](https://github.com/TickTockBent/flynn)*
 
 </div>
 
