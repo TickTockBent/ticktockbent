@@ -1,20 +1,20 @@
 ---
-updatedAt: 2026-08-07T06:24:06Z
-summary: "Advancing vimes' slice 9 architecture with tree-spine schema and signing workflows, refactoring flynn's game modules."
+updatedAt: 2026-08-08T06:14:25Z
+summary: "Advancing vimes' instance routing and state management while refactoring flynn's game architecture."
 projects:
-  - { repo: "flynn", commits: 1, msg: "refactoring game modules to use unified GameContext and theme system", latest_sha: "9cc070e", ts: "13h", tag: g }
-  - { repo: "vimes", commits: 8, msg: "designing slice 9 architecture with tree-spine schema, signing packets, and seam-first migration pat", latest_sha: "0c2958e", ts: "14h", tag: g }
-  - { repo: "johnny", commits: 1, msg: "adding list() method for non-semantic resource enumeration", latest_sha: "1b0d4db", ts: "1w", tag: g }
+  - { repo: "vimes", commits: 8, msg: "completing D72 Move 2 with instance routing contracts and task store restructuring", latest_sha: "807378d", ts: "7h", tag: g }
+  - { repo: "flynn", commits: 1, msg: "unifying game modules under shared GameContext and theme system", latest_sha: "9cc070e", ts: "1d", tag: g }
+  - { repo: "johnny", commits: 1, msg: "adding list() method for non-semantic enumeration support", latest_sha: "1b0d4db", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Advancing vimes' slice 9 architecture with tree-spine schema and signing workflows, refactoring flynn's game modules.
+**Right now:** Advancing vimes' instance routing and state management while refactoring flynn's game architecture.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| flynn | 1 | refactoring game modules to use unified GameContext and theme system | 13h |
-| vimes | 8 | designing slice 9 architecture with tree-spine schema, signing packets, and seam-first migration pat | 14h |
-| johnny | 1 | adding list() method for non-semantic resource enumeration | 1w |
+| vimes | 8 | completing D72 Move 2 with instance routing contracts and task store restructuring | 7h |
+| flynn | 1 | unifying game modules under shared GameContext and theme system | 1d |
+| johnny | 1 | adding list() method for non-semantic enumeration support | 1w |
