@@ -1,20 +1,20 @@
 ---
-updatedAt: 2026-08-18T06:08:09Z
-summary: "refactoring vimes' session UI architecture and restructuring charlotte's documentation site"
+updatedAt: 2026-08-19T06:08:20Z
+summary: "hardening charlotte's CI pipeline and security posture; advancing vimes documentation and core session handling."
 projects:
-  - { repo: "vimes", commits: 8, msg: "refactoring session management UI, removing dead routes and consolidating picker logic", latest_sha: "3b19143", ts: "11h", tag: g }
-  - { repo: "charlotte", commits: 8, msg: "migrating documentation to Mintlify, fixing agent-manifest discovery and benchmark docs", latest_sha: "c1ad8cd", ts: "6d", tag: c }
-  - { repo: "flynn", commits: 1, msg: "unifying GameContext and theme system across game modules", latest_sha: "9cc070e", ts: "1w", tag: g }
+  - { repo: "charlotte", commits: 8, msg: "hardening CI pipeline, security audits, and migrating docs to Mintlify root", latest_sha: "aef9d38", ts: "11h", tag: g }
+  - { repo: "vimes", commits: 8, msg: "closing documentation slices, fixing session title derivation, and triaging design suite", latest_sha: "44f056f", ts: "13h", tag: c }
+  - { repo: "flynn", commits: 1, msg: "refactoring game modules to use unified GameContext and theme system", latest_sha: "9cc070e", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** refactoring vimes' session UI architecture and restructuring charlotte's documentation site
+**Right now:** hardening charlotte's CI pipeline and security posture; advancing vimes documentation and core session handling.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| vimes | 8 | refactoring session management UI, removing dead routes and consolidating picker logic | 11h |
-| charlotte | 8 | migrating documentation to Mintlify, fixing agent-manifest discovery and benchmark docs | 6d |
-| flynn | 1 | unifying GameContext and theme system across game modules | 1w |
+| charlotte | 8 | hardening CI pipeline, security audits, and migrating docs to Mintlify root | 11h |
+| vimes | 8 | closing documentation slices, fixing session title derivation, and triaging design suite | 13h |
+| flynn | 1 | refactoring game modules to use unified GameContext and theme system | 1w |
