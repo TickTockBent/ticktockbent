@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-08-25T06:08:26Z
-summary: "charlotte gains ARM support and persistent init scripts; vimes ships checkout coordination layer."
+updatedAt: 2026-08-26T06:09:40Z
+summary: "advancing vimes' declaration pipeline and expanding charlotte's device emulation capabilities"
 projects:
-  - { repo: "charlotte", commits: 8, msg: "shipping ARM Docker images, persistent init scripts, named device emulation, and DOM ID resolution f", latest_sha: "2078350", ts: "3d", tag: g }
-  - { repo: "vimes", commits: 8, msg: "implementing checkout API with coordination, refusal-status mapping, worktree orphan discovery, and ", latest_sha: "1ce6666", ts: "5d", tag: g }
+  - { repo: "vimes", commits: 8, msg: "shipping S19 declaration path with instance-record projection and compile-guarded engine assembly", latest_sha: "0375077", ts: "11h", tag: g }
+  - { repo: "charlotte", commits: 8, msg: "adding named device emulation, persistent init scripts, and ARM64 Docker image support", latest_sha: "2078350", ts: "4d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** charlotte gains ARM support and persistent init scripts; vimes ships checkout coordination layer.
+**Right now:** advancing vimes' declaration pipeline and expanding charlotte's device emulation capabilities
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| charlotte | 8 | shipping ARM Docker images, persistent init scripts, named device emulation, and DOM ID resolution f | 3d |
-| vimes | 8 | implementing checkout API with coordination, refusal-status mapping, worktree orphan discovery, and  | 5d |
+| vimes | 8 | shipping S19 declaration path with instance-record projection and compile-guarded engine assembly | 11h |
+| charlotte | 8 | adding named device emulation, persistent init scripts, and ARM64 Docker image support | 4d |
