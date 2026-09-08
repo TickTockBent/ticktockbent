@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-09-07T11:20:53Z
-summary: "refining REPRAM's TTL defaults and analytics, advancing vimes' declaration-governed dispatch architecture"
+updatedAt: 2026-09-08T10:26:14Z
+summary: "delivering vimes S19 declaration-governed dispatch and REPRAM landing page enhancements"
 projects:
-  - { repo: "REPRAM", commits: 4, msg: "implement default TTL handling and enhance documentation with analytics integration", latest_sha: "1f7eece", ts: "1d", tag: g }
-  - { repo: "vimes", commits: 8, msg: "deploy declaration-governed dispatch system with tenant boundary architecture and diagnostic fixes", latest_sha: "dc3ef53", ts: "1w", tag: c }
+  - { repo: "REPRAM", commits: 4, msg: "adding default TTL handling, analytics beacon, and security documentation refinements", latest_sha: "1f7eece", ts: "1d", tag: g }
+  - { repo: "vimes", commits: 8, msg: "shipping S19 declaration-governed dispatch with tenant boundary architecture and compiled path optim", latest_sha: "dc3ef53", ts: "1w", tag: c }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** refining REPRAM's TTL defaults and analytics, advancing vimes' declaration-governed dispatch architecture
+**Right now:** delivering vimes S19 declaration-governed dispatch and REPRAM landing page enhancements
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| REPRAM | 4 | implement default TTL handling and enhance documentation with analytics integration | 1d |
-| vimes | 8 | deploy declaration-governed dispatch system with tenant boundary architecture and diagnostic fixes | 1w |
+| REPRAM | 4 | adding default TTL handling, analytics beacon, and security documentation refinements | 1d |
+| vimes | 8 | shipping S19 declaration-governed dispatch with tenant boundary architecture and compiled path optim | 1w |
