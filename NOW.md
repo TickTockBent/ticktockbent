@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-09-09T10:36:34Z
-summary: "advancing vimes acceptance routing logic and enhancing REPRAM's documentation and analytics"
+updatedAt: 2026-09-10T10:24:25Z
+summary: "REPRAM receives feature updates and documentation refinement; Vimes project archived."
 projects:
-  - { repo: "vimes", commits: 7, msg: "completing acceptance declaration routing with compiled literals and exhaustive evaluator patterns", latest_sha: "59271f5", ts: "19h", tag: g }
-  - { repo: "REPRAM", commits: 4, msg: "adding default TTL expiration, refining security documentation, and integrating Vercel analytics", latest_sha: "1f7eece", ts: "2d", tag: g }
+  - { repo: "vimes", commits: 1, msg: "archiving project as suite moves to docs and Ranks becomes primary loop", latest_sha: "59271f5", ts: "1d", tag: g }
+  - { repo: "REPRAM", commits: 4, msg: "implementing default TTL handling, adding analytics, and refining documentation", latest_sha: "1f7eece", ts: "3d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** advancing vimes acceptance routing logic and enhancing REPRAM's documentation and analytics
+**Right now:** REPRAM receives feature updates and documentation refinement; Vimes project archived.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| vimes | 7 | completing acceptance declaration routing with compiled literals and exhaustive evaluator patterns | 19h |
-| REPRAM | 4 | adding default TTL expiration, refining security documentation, and integrating Vercel analytics | 2d |
+| vimes | 1 | archiving project as suite moves to docs and Ranks becomes primary loop | 1d |
+| REPRAM | 4 | implementing default TTL handling, adding analytics, and refining documentation | 3d |
