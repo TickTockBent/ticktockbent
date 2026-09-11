@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-09-10T10:24:25Z
-summary: "REPRAM receives feature updates and documentation refinement; Vimes project archived."
+updatedAt: 2026-09-11T10:26:31Z
+summary: "archiving vimes project and enhancing REPRAM with TTL defaults and improved docs"
 projects:
-  - { repo: "vimes", commits: 1, msg: "archiving project as suite moves to docs and Ranks becomes primary loop", latest_sha: "59271f5", ts: "1d", tag: g }
-  - { repo: "REPRAM", commits: 4, msg: "implementing default TTL handling, adding analytics, and refining documentation", latest_sha: "1f7eece", ts: "3d", tag: g }
+  - { repo: "vimes", commits: 1, msg: "archiving project suite with full git history preserved in docs", latest_sha: "59271f5", ts: "2d", tag: g }
+  - { repo: "REPRAM", commits: 2, msg: "implementing 30-minute default TTL and refactoring documentation", latest_sha: "1f7eece", ts: "4d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** REPRAM receives feature updates and documentation refinement; Vimes project archived.
+**Right now:** archiving vimes project and enhancing REPRAM with TTL defaults and improved docs
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| vimes | 1 | archiving project as suite moves to docs and Ranks becomes primary loop | 1d |
-| REPRAM | 4 | implementing default TTL handling, adding analytics, and refining documentation | 3d |
+| vimes | 1 | archiving project suite with full git history preserved in docs | 2d |
+| REPRAM | 2 | implementing 30-minute default TTL and refactoring documentation | 4d |
