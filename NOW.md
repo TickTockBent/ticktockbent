@@ -1,20 +1,20 @@
 ---
-updatedAt: 2026-09-24T10:56:50Z
-summary: "completing omega encrypted authority lifecycle in Sopholeth, refining game_of_life documentation, and improving charlotte's transport handling."
+updatedAt: 2026-09-25T10:57:56Z
+summary: "Advancing Sopholeth's three-root test network and omega deployment, with updates to charlotte and game_of_life."
 projects:
-  - { repo: "Sopholeth", commits: 8, msg: "completing encrypted omega authority lifecycle with deployment edge cases, HTTPS base paths, and key", latest_sha: "666f758", ts: "now", tag: g }
-  - { repo: "game_of_life", commits: 1, msg: "refining section descriptions for clarity and conciseness", latest_sha: "3aa7f68", ts: "1w", tag: g }
-  - { repo: "charlotte", commits: 2, msg: "adding contributor documentation and fixing stdio transport closure handling", latest_sha: "e68ceb3", ts: "1w", tag: c }
+  - { repo: "Sopholeth", commits: 8, msg: "building permissionless three-root test network with omega HTTPS discovery and Vercel deployment sup", latest_sha: "108d9e7", ts: "18h", tag: g }
+  - { repo: "game_of_life", commits: 1, msg: "refining documentation clarity in index.html descriptions", latest_sha: "3aa7f68", ts: "1w", tag: g }
+  - { repo: "charlotte", commits: 2, msg: "improving contributor acknowledgment and stdio transport lifecycle management", latest_sha: "e68ceb3", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** completing omega encrypted authority lifecycle in Sopholeth, refining game_of_life documentation, and improving charlotte's transport handling.
+**Right now:** Advancing Sopholeth's three-root test network and omega deployment, with updates to charlotte and game_of_life.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| Sopholeth | 8 | completing encrypted omega authority lifecycle with deployment edge cases, HTTPS base paths, and key | now |
-| game_of_life | 1 | refining section descriptions for clarity and conciseness | 1w |
-| charlotte | 2 | adding contributor documentation and fixing stdio transport closure handling | 1w |
+| Sopholeth | 8 | building permissionless three-root test network with omega HTTPS discovery and Vercel deployment sup | 18h |
+| game_of_life | 1 | refining documentation clarity in index.html descriptions | 1w |
+| charlotte | 2 | improving contributor acknowledgment and stdio transport lifecycle management | 1w |
