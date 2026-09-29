@@ -7,7 +7,7 @@
 **Infrastructure engineer · Systems architect · Compulsive builder of things**
 
 18+ years building systems that run, scale, and occasionally explode in interesting ways.<br>
-Currently at **[Clocktower and Associates](https://www.clocktowerassoc.com)** — AI tooling, blockchain infrastructure, and web audits.
+Currently at **[Clocktower and Associates](https://www.clocktowerassoc.com)** - - AI tooling, blockchain infrastructure, and web audits.
 
 I name my projects after literary characters and give them attitudes. It's a whole thing.
 
@@ -38,13 +38,13 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 ## 🔨 What I Build
 
-**AI Agent Infrastructure** — MCP servers, semantic memory, distributed coordination, and web standards for the agent era.
+**AI Agent Infrastructure** - - MCP servers, semantic memory, distributed coordination, and web standards for the agent era.
 
-**Blockchain & DeFi** — Prediction markets, escrow protocols, staking systems, and on-chain analytics on Ethereum and Polygon.
+**Blockchain & DeFi** - - Prediction markets, escrow protocols, staking systems, and on-chain analytics on Ethereum and Polygon.
 
-**Games** — Browser puzzles, Unity prototypes, idle games, and simulations. If it has a game loop, I've probably built one at 2am.
+**Games** - - Browser puzzles, Unity prototypes, idle games, and simulations. If it has a game loop, I've probably built one at 2am.
 
-**Infrastructure** — Docker, Kubernetes, Flux, CI/CD, and Conway's Game of Life distributed across a k8s cluster because why not.
+**Infrastructure** - - Docker, Kubernetes, Flux, CI/CD, and Conway's Game of Life distributed across a k8s cluster because why not.
 
 ---
 
