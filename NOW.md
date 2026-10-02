@@ -1,16 +1,16 @@
 ---
-updatedAt: 2026-10-01T12:15:15Z
-summary: "shipping probesim fleet simulation and optimizing Sopholeth's test suite performance"
+updatedAt: 2026-10-02T11:44:23Z
+summary: "maintaining Sopholeth's probesim fleet and improving testnet performance"
 projects:
-  - { repo: "Sopholeth", commits: 8, msg: "building probesim space probe simulation with chat integration and stream UI improvements", latest_sha: "e3f9c84", ts: "23h", tag: g }
+  - { repo: "Sopholeth", commits: 8, msg: "stabilizing probesim space probe simulation, rebuilding stream UI, and optimizing test suite perform", latest_sha: "e3f9c84", ts: "1d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** shipping probesim fleet simulation and optimizing Sopholeth's test suite performance
+**Right now:** maintaining Sopholeth's probesim fleet and improving testnet performance
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| Sopholeth | 8 | building probesim space probe simulation with chat integration and stream UI improvements | 23h |
+| Sopholeth | 8 | stabilizing probesim space probe simulation, rebuilding stream UI, and optimizing test suite perform | 1d |
