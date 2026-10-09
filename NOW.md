@@ -1,18 +1,20 @@
 ---
-updatedAt: 2026-10-08T12:38:56Z
-summary: "Sopholeth gaining probesim fleet simulation features and performance improvements; termlife shipping drawing and export capabilities."
+updatedAt: 2026-10-09T12:26:02Z
+summary: "Sopholeth receives major updates with probesim fleet simulation, termlife gains CI/CD and interactive features, chronoshift expands time systems."
 projects:
-  - { repo: "termlife", commits: 5, msg: "adding mouse drawing, GIF export, and CI/release workflows to terminal-based life simulator", latest_sha: "8863821", ts: "23h", tag: g }
-  - { repo: "Sopholeth", commits: 8, msg: "integrating probesim space probe fleet with chat features and optimizing test performance on public ", latest_sha: "e3f9c84", ts: "1w", tag: g }
+  - { repo: "chronoshift", commits: 1, msg: "expanding temporal hour systems with Wadokei (Edo period) support", latest_sha: "e684933", ts: "1d", tag: g }
+  - { repo: "termlife", commits: 5, msg: "adding CI/CD workflows, mouse drawing support, and help overlays with export fixes", latest_sha: "8863821", ts: "1d", tag: c }
+  - { repo: "Sopholeth", commits: 8, msg: "adding probesim space probe fleet simulation with chat integration and stream improvements", latest_sha: "e3f9c84", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Sopholeth gaining probesim fleet simulation features and performance improvements; termlife shipping drawing and export capabilities.
+**Right now:** Sopholeth receives major updates with probesim fleet simulation, termlife gains CI/CD and interactive features, chronoshift expands time systems.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| termlife | 5 | adding mouse drawing, GIF export, and CI/release workflows to terminal-based life simulator | 23h |
-| Sopholeth | 8 | integrating probesim space probe fleet with chat features and optimizing test performance on public  | 1w |
+| chronoshift | 1 | expanding temporal hour systems with Wadokei (Edo period) support | 1d |
+| termlife | 5 | adding CI/CD workflows, mouse drawing support, and help overlays with export fixes | 1d |
+| Sopholeth | 8 | adding probesim space probe fleet simulation with chat integration and stream improvements | 1w |
