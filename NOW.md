@@ -1,20 +1,20 @@
 ---
-updatedAt: 2026-10-14T11:00:25Z
-summary: "expanding termlife with mouse drawing and CI workflows, adding Wadokei time system to chronoshift, maintaining Sopholeth simulations"
+updatedAt: 2026-10-15T10:43:09Z
+summary: "termlife gains mouse drawing and CI workflows, chronoshift adds Edo temporal hours"
 projects:
-  - { repo: "Sopholeth", commits: 2, msg: "maintaining probesim population lifecycle and project structure", latest_sha: "d9e0a30", ts: "4d", tag: g }
-  - { repo: "chronoshift", commits: 1, msg: "implementing Wadokei Edo temporal hours time system", latest_sha: "e684933", ts: "6d", tag: g }
-  - { repo: "termlife", commits: 5, msg: "adding mouse drawing, help overlay, CI/release workflows, and fixing resize and export functionality", latest_sha: "8863821", ts: "6d", tag: c }
+  - { repo: "Sopholeth", commits: 1, msg: "updating project folder exclusions", latest_sha: "d9e0a30", ts: "5d", tag: g }
+  - { repo: "chronoshift", commits: 1, msg: "implementing Wadokei Edo temporal hours time system", latest_sha: "e684933", ts: "1w", tag: g }
+  - { repo: "termlife", commits: 5, msg: "adding mouse drawing, help overlay, CI/release workflows, and export fixes", latest_sha: "8863821", ts: "1w", tag: c }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** expanding termlife with mouse drawing and CI workflows, adding Wadokei time system to chronoshift, maintaining Sopholeth simulations
+**Right now:** termlife gains mouse drawing and CI workflows, chronoshift adds Edo temporal hours
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| Sopholeth | 2 | maintaining probesim population lifecycle and project structure | 4d |
-| chronoshift | 1 | implementing Wadokei Edo temporal hours time system | 6d |
-| termlife | 5 | adding mouse drawing, help overlay, CI/release workflows, and fixing resize and export functionality | 6d |
+| Sopholeth | 1 | updating project folder exclusions | 5d |
+| chronoshift | 1 | implementing Wadokei Edo temporal hours time system | 1w |
+| termlife | 5 | adding mouse drawing, help overlay, CI/release workflows, and export fixes | 1w |
