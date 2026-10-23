@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-10-22T10:59:14Z
-summary: "Polishing charlotte's form interaction reliability and expanding ARM64 support across projects"
+updatedAt: 2026-10-23T10:52:42Z
+summary: "refining charlotte's form interaction reliability and expanding arm64 support with native builds"
 projects:
-  - { repo: "charlotte", commits: 4, msg: "fixing form input validation and shipping native ARM64 Docker builds", latest_sha: "0a37c23", ts: "4d", tag: c }
-  - { repo: "Sopholeth", commits: 1, msg: "managing local development environment exclusions", latest_sha: "d9e0a30", ts: "1w", tag: g }
+  - { repo: "charlotte", commits: 4, msg: "fixing form input reliability and building native arm64 Docker images", latest_sha: "0a37c23", ts: "5d", tag: c }
+  - { repo: "Sopholeth", commits: 1, msg: "updating project configuration", latest_sha: "d9e0a30", ts: "1w", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** Polishing charlotte's form interaction reliability and expanding ARM64 support across projects
+**Right now:** refining charlotte's form interaction reliability and expanding arm64 support with native builds
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| charlotte | 4 | fixing form input validation and shipping native ARM64 Docker builds | 4d |
-| Sopholeth | 1 | managing local development environment exclusions | 1w |
+| charlotte | 4 | fixing form input reliability and building native arm64 Docker images | 5d |
+| Sopholeth | 1 | updating project configuration | 1w |
