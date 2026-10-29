@@ -7,13 +7,12 @@
 **Infrastructure engineer · Systems architect · Compulsive builder of things**
 
 18+ years building systems that run, scale, and occasionally explode in interesting ways.<br>
-Currently at **[Clocktower and Associates](https://www.clocktowerassoc.com)** - - AI tooling, blockchain infrastructure, and web audits.
+I run **[Clocktower and Associates](https://www.clocktowerassoc.com)**, an AI consultancy. I help teams bring agentic workflows into production: picking the right places for agents to do real work, building the MCP servers and infrastructure they run on, and putting in the review loops that keep them honest. Website audits and rebuilds too, with a clear handoff at the end.
 
 I name my projects after literary characters and give them attitudes. It's a whole thing.
 
 [![Discord](https://img.shields.io/badge/Discord-TickTockBent-5865F2?logo=discord&logoColor=white&style=flat)](https://discord.com)
 [![Website](https://img.shields.io/badge/clocktowerassoc.com-222?logo=safari&logoColor=white&style=flat)](https://www.clocktowerassoc.com)
-![Profile Views](https://komarev.com/ghpvc/?username=ticktockbent&color=blue&style=flat)
 
 </div>
 
@@ -38,13 +37,13 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 
 ## 🔨 What I Build
 
-**AI Agent Infrastructure** - - MCP servers, semantic memory, distributed coordination, and web standards for the agent era.
+**AI Agent Infrastructure:** MCP servers, semantic memory, distributed coordination, and web standards for the agent era.
 
-**Blockchain & DeFi** - - Prediction markets, escrow protocols, staking systems, and on-chain analytics on Ethereum and Polygon.
+**Blockchain & DeFi:** Prediction markets, escrow protocols, staking systems, and on-chain analytics on Ethereum and Polygon.
 
-**Games** - - Browser puzzles, Unity prototypes, idle games, and simulations. If it has a game loop, I've probably built one at 2am.
+**Games:** Browser puzzles, Unity prototypes, idle games, and simulations. If it has a game loop, I've probably built one at 2am.
 
-**Infrastructure** - - Docker, Kubernetes, Flux, CI/CD, and Conway's Game of Life distributed across a k8s cluster because why not.
+**Infrastructure:** Docker, Kubernetes, Flux, CI/CD, and Conway's Game of Life distributed across a k8s cluster because why not.
 
 ---
 
@@ -119,8 +118,6 @@ I write about AI agents, infrastructure, security, and open-source tools at [dev
 ---
 
 <div align="center">
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
 
 Open to collaboration, contributions, and projects with unreasonable scope.
 
