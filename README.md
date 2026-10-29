@@ -7,7 +7,7 @@
 **Infrastructure engineer · Systems architect · Compulsive builder of things**
 
 18+ years building systems that run, scale, and occasionally explode in interesting ways.<br>
-I run **[Clocktower and Associates](https://www.clocktowerassoc.com)**, an AI consultancy. I help teams bring agentic workflows into production: picking the right places for agents to do real work, building the MCP servers and infrastructure they run on, and putting in the review loops that keep them honest. Website audits and rebuilds too, with a clear handoff at the end.
+I run **[Clocktower and Associates](https://www.clocktowerassoc.com)**, a general tech and AI consultancy with some service offerings. I help teams bring agentic workflows into production: picking the right places for agents to do real work, building the MCP servers and infrastructure they run on, and putting in the review loops that keep them honest. Website audits and rebuilds too, with a clear handoff at the end.
 
 I name my projects after literary characters and give them attitudes. It's a whole thing.
 
