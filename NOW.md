@@ -1,6 +1,6 @@
 ---
-updatedAt: 2026-11-09T14:55:38Z
-summary: "enhancing real-disunity's lighting system for tilemaps"
+updatedAt: 2026-11-10T14:08:18Z
+summary: "Enhancing real-disunity's 2D lighting system with sprite-lit tilemap rendering."
 projects:
   - { repo: "acoliver/real-disunity", commits: 1, msg: "Light tilemaps drawn with Sprite-Lit-Default by the scene's global 2D lights", latest_sha: "4457374", ts: "1w", tag: g }
 ---
@@ -9,7 +9,7 @@ projects:
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** enhancing real-disunity's lighting system for tilemaps
+**Right now:** Enhancing real-disunity's 2D lighting system with sprite-lit tilemap rendering.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
