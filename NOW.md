@@ -1,5 +1,5 @@
 ---
-updatedAt: 2026-11-12T14:29:21Z
+updatedAt: 2026-11-13T13:46:42Z
 summary: "Building things, breaking things, occasionally shipping them."
 projects:
 ---
