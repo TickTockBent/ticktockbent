@@ -1,16 +1,18 @@
 ---
-updatedAt: 2026-11-16T14:32:25Z
-summary: "addressing dependency vulnerability in charlotte"
+updatedAt: 2026-11-17T15:22:18Z
+summary: "Improving Sopholeth's gossip dispatch resilience and omega operator tooling"
 projects:
-  - { repo: "charlotte", commits: 1, msg: "updating @modelcontextprotocol/node to resolve security advisory", latest_sha: "0f34916", ts: "2d", tag: g }
+  - { repo: "Sopholeth", commits: 3, msg: "shipping bounded async dispatcher for gossip, omega operator polish with key file reports", latest_sha: "11d8cf3", ts: "now", tag: c }
+  - { repo: "charlotte", commits: 1, msg: "updating @modelcontextprotocol/node dependency for security", latest_sha: "0f34916", ts: "3d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** addressing dependency vulnerability in charlotte
+**Right now:** Improving Sopholeth's gossip dispatch resilience and omega operator tooling
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| charlotte | 1 | updating @modelcontextprotocol/node to resolve security advisory | 2d |
+| Sopholeth | 3 | shipping bounded async dispatcher for gossip, omega operator polish with key file reports | now |
+| charlotte | 1 | updating @modelcontextprotocol/node dependency for security | 3d |
