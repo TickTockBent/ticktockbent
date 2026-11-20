@@ -1,18 +1,18 @@
 ---
-updatedAt: 2026-11-19T15:03:35Z
-summary: "shipping Sopholeth's gossip protocol refinements and peer management improvements; charlotte security patches"
+updatedAt: 2026-11-20T14:45:26Z
+summary: "shipping Sopholeth's gossip reliability improvements and network repair features"
 projects:
-  - { repo: "Sopholeth", commits: 8, msg: "refining gossip protocol with bounded dispatching, peer acknowledgment tracking, and network repair ", latest_sha: "cb34bb8", ts: "1d", tag: c }
-  - { repo: "charlotte", commits: 1, msg: "patching security vulnerability in model context protocol dependency", latest_sha: "0f34916", ts: "5d", tag: c }
+  - { repo: "Sopholeth", commits: 8, msg: "shipping gossip reliability, bounded async dispatch, and network repair queue features", latest_sha: "cb34bb8", ts: "2d", tag: c }
+  - { repo: "charlotte", commits: 1, msg: "updating @modelcontextprotocol/node dependency for security", latest_sha: "0f34916", ts: "6d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** shipping Sopholeth's gossip protocol refinements and peer management improvements; charlotte security patches
+**Right now:** shipping Sopholeth's gossip reliability improvements and network repair features
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| Sopholeth | 8 | refining gossip protocol with bounded dispatching, peer acknowledgment tracking, and network repair  | 1d |
-| charlotte | 1 | patching security vulnerability in model context protocol dependency | 5d |
+| Sopholeth | 8 | shipping gossip reliability, bounded async dispatch, and network repair queue features | 2d |
+| charlotte | 1 | updating @modelcontextprotocol/node dependency for security | 6d |
