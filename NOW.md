@@ -1,18 +1,16 @@
 ---
-updatedAt: 2026-11-26T16:12:25Z
-summary: "refining Sopholeth's gossip protocol and message handling; addressing security updates in charlotte"
+updatedAt: 2026-11-27T15:58:21Z
+summary: "Sopholeth receives refinements to gossip propagation, deduplication, and quorum semantics."
 projects:
-  - { repo: "Sopholeth", commits: 8, msg: "refining gossip protocol message deduplication, quorum logic, and peer acknowledgment tracking", latest_sha: "3866c94", ts: "2d", tag: g }
-  - { repo: "charlotte", commits: 1, msg: "updating dependencies to resolve security vulnerability", latest_sha: "0f34916", ts: "1w", tag: g }
+  - { repo: "Sopholeth", commits: 8, msg: "refining gossip message propagation, deduplication caching, and quorum deadline handling", latest_sha: "3866c94", ts: "3d", tag: g }
 ---
 
 ## now.working
 
 _Auto-updated nightly. Public-repo commits only. Rendered on [wshoffner.dev](https://www.wshoffner.dev) in the now.working panel._
 
-**Right now:** refining Sopholeth's gossip protocol and message handling; addressing security updates in charlotte
+**Right now:** Sopholeth receives refinements to gossip propagation, deduplication, and quorum semantics.
 
 | Project | Commits | Activity | Latest |
 |---|---|---|---|
-| Sopholeth | 8 | refining gossip protocol message deduplication, quorum logic, and peer acknowledgment tracking | 2d |
-| charlotte | 1 | updating dependencies to resolve security vulnerability | 1w |
+| Sopholeth | 8 | refining gossip message propagation, deduplication caching, and quorum deadline handling | 3d |
